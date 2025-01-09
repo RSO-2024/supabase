@@ -92,7 +92,7 @@ serve(async (req) => {
         <li>Registration Date: ${listing.firstReg || "N/A"}</li>
         <li>Delivery Window: ${listing.deliveryWindowStart || "N/A"} to ${listing.deliveryWindowEnd || "N/A"}</li>
       </ul>
-      <p>View the listing <a href="${listing.url}">here</a>.</p>
+      <p>View the listing <a href="https://clutchbids.proemium.net/best-value/${listing.id}">here</a>.</p>
     `;
 
     // Send emails to all subscribers
